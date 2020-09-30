@@ -7,6 +7,8 @@
 
 Convertir a Datapower en un proveedor de conectores OpenId para Federación de identidades internas y externas
 
+---
+
 ## Descripción del taller
 
 El objetivo del taller es conocer las capacidades de Autenticación y Autorización utilizando OpenId para proveedor de identidad interno y externo (Google)
@@ -15,7 +17,7 @@ __Nivel de experiencia__: Principiante
 
 __Duración__: 1 hora
 
-__Requisitos__: Instancia de Datapower (Reservar entorno: https://www.ibm.com/demos/collection/IBM-DataPower-Gateway/?lc=en#demo-environment)
+__Requisitos__: Instancia de Datapower (Reservar instancia en: https://www.ibm.com/demos/collection/IBM-DataPower-Gateway/?lc=en#demo-environment)
 
 ## Introducción a OpenId Connect (OIDC)
 
@@ -27,7 +29,9 @@ OpenID Connect permite que clientes de todo tipo, incluidos JavaScript basados �
 
 __(Identidad, Autenticación) + OAuth 2.0 = OpenID Connect__
 
-![Flujo OIDC](img/Oauth-flow.PNG) Flujo de autenticación usando OIDC
+![Flujo OIDC](img/Oauth-flow.PNG)
+
+*Flujo de autenticación usando OIDC*
 
 Mas información en https://openid.net/connect/faq/
 
@@ -40,12 +44,16 @@ __Pasos del laboratorio__
 1. Acceder a la consola de gestión de DataPower
 2. Registrar cliente OIDC para interactuar con el proveedor de identidades
 3. Crear y configurar grupo de OAuth para el cliente
-4. Crear un servicio de Web token  para que actúe como un proveedor de OIDC
+4. Crear un servicio de Web token para que actúe como un proveedor de OIDC
 5. Revisar política de login social
 6. Crear y configurar servicio multiprotocolo para peticiones de OIDC
-7. Probar desarrollado
+7. Probar desarrollo
 
 ## Laboratorio 2 - Google como proveedor externo de identidades
+
+Ahora utlizaremos cuentas de Google para autenticar e identificar a los usuarios que consumen nuestro servicios desde Datapower.
+
+__Pasos del laboratorio__
 
 1. Acceder a la consola de gestión de DataPower
 2. Registrar a datapower como cliente de OIDC de Google
@@ -55,3 +63,5 @@ __Pasos del laboratorio__
 6. Probar desarrollo
 
 ## Resumen ##
+
+Configurando servicios de OIDC en Datapower nos habilitan a poder concentrar la identificación de usuarios que acceden a aplicaciones o servicios. Esta estrategia evita recodificar en cada aplicación o servicio las políticas de AAA definidas y poder tener diversos mecanismos dependiendo de los consumidores finales.
