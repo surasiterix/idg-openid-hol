@@ -1,4 +1,4 @@
-![Logos](img/Logo-IBM-INCO.png)
+![Logos](img/Logo-IBM-INCO.PNG)
 # Implementando OpenId y SSO en Datapower
 
 ![Alt Text](https://img.shields.io/badge/IBM%20Datapower%20Gateway-v2018.4-blue.svg?style=plastic)
@@ -27,7 +27,7 @@ OpenID Connect permite que clientes de todo tipo, incluidos JavaScript basados �
 
 __(Identidad, Autenticación) + OAuth 2.0 = OpenID Connect__
 
-![Flujo OIDC](img/Oauth-flow.png) Flujo de autenticación usando OIDC
+![Flujo OIDC](img/Oauth-flow.PNG) Flujo de autenticación usando OIDC
 
 Mas información en https://openid.net/connect/faq/
 
