@@ -35,11 +35,13 @@ __(Identidad, Autenticación) + OAuth 2.0 = OpenID Connect__
 
 Mas información en https://openid.net/connect/faq/
 
-## Laboratorio 1 - Proveedor interno de identidades
+## Laboratorio 1 - OIDC proveedor interno
 
 Vamos a convertir a Datapower en un punto de conexión de OpenId para autenticar un usurio y generar su token de acceso para interactuar con los servicios de backend que queramos proteger.
 
-__Pasos del laboratorio__
+Si es la primera vez que accedes a los ambientes de IBM Skytap para los ambientes de demostración, accede a [HowTo - Acceso al ambiente.md](HowTo%20-%20Acceso%20al%20ambiente.md) para el proceso de preparación del ambiente 
+
+__Pasos del laboratorio__:
 
 1. Acceder a la consola de gestión de DataPower
 2. Registrar cliente OIDC para interactuar con el proveedor de identidades
