@@ -7,8 +7,6 @@
 
 Convertir a Datapower en un proveedor de conectores OpenId para Federación de identidades internas y externas
 
----
-
 ## Descripción del taller
 
 El objetivo del taller es conocer las capacidades de Autenticación y Autorización utilizando OpenId para proveedor de identidad interno y externo (Google)

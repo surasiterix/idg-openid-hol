@@ -13,7 +13,7 @@ Empecemos!
 
 1. En la vm de trabajo, abrimos una ventana de firefox y accedemos a la cónsola de administración de datapower en `https://datapower:9090`
 
-![Skytap - Consola Datapower](../img/Skytap%20-%20Login%20Consola%20Datapower.PNG)
+![Skytap - Consola Datapower](../img/IDG%20-%20Login%20consola%20Datapower.PNG)
 
 Las credenciales de acceso:
 
@@ -45,7 +45,7 @@ Las credenciales de acceso:
 
 3. Llenamos los datos del formulario tal como se desribe en la siguiente imagen
 
-![IDG - Formulario OAuth Group](../img/IDG%20-%20Oauth%20Group%20profile.PNG)
+![IDG - Formulario OAuth Group](../img/IDG%20-%20Oauth%20Group%20Profile.PNG)
 
 **Paso 4** Crear un servicio de Web token para que actúe como un proveedor de OIDC
 
@@ -69,15 +69,15 @@ Las credenciales de acceso:
 
 7. Configuramos la fase de extracción marcando los flags de __HTTP Authentication header__ y __OAuth__ quedando como la siguiente imagen y pulsamos [Next]
 
-![IDG - Políticas de procesamiento](../img/IDG%20-%20WebService%20Token%20AAA%20Formulario%201.PNG)
+![IDG - Políticas de procesamiento](../img/IDG%20-%20WebService%20Token%20AAA%20formulario%201.PNG)
 
 8. Configuramos la fase de autenticación usando a Datapower como repositorio de identidades. Para ello usaremos un archivo de credenciales llamado __ibmair_aaa.xml__ y pulsamos [Next]
 
-![IDG - Políticas de procesamiento](../img/IDG%20-%20WebService%20Token%20AAA%20Formulario%202.PNG)
+![IDG - Políticas de procesamiento](../img/IDG%20-%20WebService%20Token%20AAA%20formulario%202.PNG)
 
 9. Configuramos como obtener los recursos procesando la metadata de __OAuth y pulsamos [Next]
 
-![IDG - Políticas de procesamiento](../img/IDG%20-%20WebService%20Token%20AAA%20Formulario%203.PNG)
+![IDG - Políticas de procesamiento](../img/IDG%20-%20WebService%20Token%20AAA%20formulario%203.PNG)
 
 10. finalizamos la configuración haciendo las siguiente configuración
 * Dejamos la parte de autorización en __Allow any authenticated client__
@@ -115,7 +115,7 @@ Nos prepararemos para publicar nuestro servicio a través de un multiprotocol ga
 
 3. Configuramos el front side handler de la siguiente formulario
 
-![IDG - MPG configuración del FSH](../img/IDG%20-%20MPG%20Frontside%20Handler.PNG)
+![IDG - MPG configuración del FSH](../img/IDG%20-%20MPG%20Frontside%20handler.PNG)
 
 4. En la sección principal, creamos una nueva política de procesamiento
 * __Policy name__: `social-login`
@@ -123,13 +123,13 @@ Nos prepararemos para publicar nuestro servicio a través de un multiprotocol ga
   * Configuramos la acción match en `All`
   * Agregamos una acción AAA como se muestra en las siguientes imágenes. Al terminar, agregaremos una acción `Result` para cerrar la regla
 
-![IDG - MPG Processing Policy](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%201.PNG)
+![IDG - MPG Processing Policy](../img/IDG%20-%20MPG%20ReqRule%20AAA%20paso%201.PNG)
 
-![IDG - MPG Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%202.PNG)
+![IDG - MPG Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20paso%202.PNG)
 
-![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%203.PNG)
+![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20paso%203.PNG)
 
-![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%204.PNG)
+![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20paso%204.PNG)
 
 * Crearmos una nueva regla, seleccionando la dirección `Server to Client`
   * Configuramos la acción match en `All`
