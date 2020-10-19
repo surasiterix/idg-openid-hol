@@ -11,7 +11,7 @@ Empecemos!
 
 **Paso 1** Acceder a la consola de gestión de DataPower
 
-1. En la vm de trabajo, abrimos una ventana de firefox y accedemos a la cónsola de administración de datapower en https://datapower:9090
+1. En la vm de trabajo, abrimos una ventana de firefox y accedemos a la cónsola de administración de datapower en `https://datapower:9090`
 
 ![Skytap - Consola Datapower](../img/Skytap%20-%20Login%20Consola%20Datapower.PNG)
 
@@ -123,21 +123,21 @@ Nos prepararemos para publicar nuestro servicio a través de un multiprotocol ga
   * Configuramos la acción match en `All`
   * Agregamos una acción AAA como se muestra en las siguientes imágenes. Al terminar, agregaremos una acción `Result` para cerrar la regla
 
-  ![IDG - MPG Processing Policy](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%201.PNG)
+![IDG - MPG Processing Policy](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%201.PNG)
 
-  ![IDG - MPG Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%202.PNG)
+![IDG - MPG Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%202.PNG)
 
-  ![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%203.PNG)
+![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%203.PNG)
 
-  ![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%204.PNG)
+![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20Paso%204.PNG)
 
 * Crearmos una nueva regla, seleccionando la dirección `Server to Client`
   * Configuramos la acción match en `All`
   * Anexaremos una acción GatewayScript para procesar el token de retorno de nuestro servicio de OIDC. Esto lo hacemos para presentarlo en el repsonse en formato JSON.
 
-  ![IDG - MPG  Response Rule](../img/IDG%20-%20MPG%20RespRule%20GwScript%201.PNG)
+![IDG - MPG  Response Rule](../img/IDG%20-%20MPG%20RespRule%20GwScript%201.PNG)
 
-  ![IDG - MPG  Response Rule](../img/IDG%20-%20MPG%20RespRule%20GwScript%202.PNG)
+![IDG - MPG  Response Rule](../img/IDG%20-%20MPG%20RespRule%20GwScript%202.PNG)
 
 Guardamos todos los cambios y verifiquemos que el servicio esté arriba.
 
@@ -148,10 +148,14 @@ Ahora a ver como nuestro proveedor de identidades funciona usando nuestro OIDC.
 1. Abrimos una nueva pestaña en firefox
 2. Colocamos la siguiente url `https://ibmair.ibm.com:2092/test`
 3. Se nos presentará un diálogo para colocar las credenciales de acceso
+
 ![IDG - Prueba de servicio](../img/Test%20-%20credenciales.PNG)
+
 * __User Name__: `david`
 * __Password___ `passw0rd`
+
 4. Seleccionado `Allow access` y listo!
+
 ![IDG - Prueba de servicio](../img/Test%20-%20Acceso.PNG)
 
 Debera ver una pantalla parecida a esta, donde se detalla la información del token recibido

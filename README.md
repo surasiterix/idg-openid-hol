@@ -51,7 +51,7 @@ __Resumen del laboratorio__:
 6. Crear y configurar servicio multiprotocolo para peticiones de OIDC
 7. Probar desarrollo
 
-Accede al paso a paso [en este link](Lab%201%20-%20OIDC%20proveedor%20Interno\README.md)
+Accede al paso a paso [en este link](Lab%201%20-%20OIDC%20proveedor%20Interno/README.md)
 
 ## Laboratorio 2 - Google como proveedor externo de identidades
 
