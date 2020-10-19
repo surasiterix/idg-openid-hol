@@ -39,9 +39,9 @@ Mas información en https://openid.net/connect/faq/
 
 Vamos a convertir a Datapower en un punto de conexión de OpenId para autenticar un usurio y generar su token de acceso para interactuar con los servicios de backend que queramos proteger.
 
-Si es la primera vez que accedes a los ambientes de IBM Skytap para los ambientes de demostración, accede a [HowTo - Acceso al ambiente.md](HowTo%20-%20Acceso%20al%20ambiente.md) para el proceso de preparación del ambiente 
+Si es la primera vez que accedes a los ambientes de IBM Skytap para los ambientes de demostración, accede a [HowTo - Acceso al ambiente.md](HowTo%20-%20Acceso%20al%20ambiente.md) para el proceso de preparación del ambiente
 
-__Pasos del laboratorio__:
+__Resumen del laboratorio__:
 
 1. Acceder a la consola de gestión de DataPower
 2. Registrar cliente OIDC para interactuar con el proveedor de identidades
@@ -50,6 +50,8 @@ __Pasos del laboratorio__:
 5. Revisar política de login social
 6. Crear y configurar servicio multiprotocolo para peticiones de OIDC
 7. Probar desarrollo
+
+Accede al paso a paso [en este link](Lab%201%20-%20OIDC%20proveedor%20Interno\README.md)
 
 ## Laboratorio 2 - Google como proveedor externo de identidades
 
