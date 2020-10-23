@@ -48,7 +48,7 @@ Las credenciales de acceso:
 
 ![Google Credencial OAuth](../img/Google%20-%20Credencial%20OAuth.PNG)
 
-Colocamos el nombre de nuestro cliente y creamos el URI de redirección apuntando al DNS de nuestro Datapower. - ulsamos el botón [Crear]
+Colocamos el nombre de nuestro cliente y creamos el URI de redirección apuntando al DNS de nuestro Datapower, en este caso `https://ibmair.ibm.com:1087/test/social-login-callback`. Pulsamos el botón [Crear]
 
 7. Copiamos el ID de cliente y la clave generadas por Google
 
@@ -96,13 +96,6 @@ El resto de los formularios de la política AAA se llenan de esta forma
 
 ![IDG - MPG  Request Rule](../img/IDG%20-%20MPG%20ReqRule%20AAA%20paso%204.PNG)
 
-* Crearmos una nueva regla, seleccionando la dirección `Server to Client`
-  * Configuramos la acción match en `All`
-  * Anexaremos una acción GatewayScript para procesar el token de retorno de nuestro servicio de OIDC. Esto lo hacemos para presentarlo en el repsonse en formato JSON.
-
-![IDG - MPG  Response Rule](../img/IDG%20-%20MPG%20RespRule%20GwScript%201.PNG)
-
-![IDG - MPG  Response Rule](../img/IDG%20-%20MPG%20RespRule%20GwScript%202.PNG)
 
 Guardamos todos los cambios y verifiquemos que el servicio esté arriba.
 
