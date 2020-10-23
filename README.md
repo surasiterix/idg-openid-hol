@@ -63,6 +63,9 @@ __Pasos del laboratorio__
 4. Crear un cache de certificado de OAuth para mejor performance
 5. Probar desarrollo
 
+Accede al paso a paso [en este link](Lab%202%20-%20OIDC%20proveedor%20externo/README.md)
+
+
 ## Resumen ##
 
 Configurando servicios de OIDC en Datapower nos habilitan a poder concentrar la identificación de usuarios que acceden a aplicaciones o servicios. Esta estrategia evita recodificar en cada aplicación o servicio las políticas de AAA definidas y poder tener diversos mecanismos dependiendo de los consumidores finales.
