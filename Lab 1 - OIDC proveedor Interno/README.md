@@ -7,13 +7,15 @@ En este laboratorio crearemos y configuraremos los objetos de datapower para bri
 
 ## Pasos del laboratorio
 
-Empecemos!
+**Requisitos**
+
+Ninguno
 
 **Paso 1** Acceder a la consola de gestión de DataPower
 
 1. En la vm de trabajo, abrimos una ventana de firefox y accedemos a la cónsola de administración de datapower en `https://datapower:9090`
 
-![Skytap - Consola Datapower](../img/IDG%20-%20Login%20consola%20Datapower.PNG)
+![IDG - Consola Datapower](../img/IDG%20-%20Login%20consola%20Datapower.PNG)
 
 Las credenciales de acceso:
 

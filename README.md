@@ -3,7 +3,7 @@
 
 ![Alt Text](https://img.shields.io/badge/IBM%20Datapower%20Gateway-v2018.4-blue.svg?style=plastic)
 
-![Alt Text](https://img.shields.io/badge/Phase-Under%20Construction-green.svg?style=plastic)
+![Alt Text](https://img.shields.io/badge/Phase-Released-green.svg?style=plastic)
 
 Convertir a Datapower en un proveedor de conectores OpenId para Federación de identidades internas y externas
 
@@ -60,9 +60,8 @@ __Pasos del laboratorio__
 1. Acceder a la consola de gestión de DataPower
 2. Registrar a datapower como cliente de OIDC de Google
 3. Crear y configurar servicio de multiprotocolo para peticiones de OIDC
-4. Crear y asociar política de login social
-5. Crear un cache de certificado de OAuth para mejor performance
-6. Probar desarrollo
+4. Crear un cache de certificado de OAuth para mejor performance
+5. Probar desarrollo
 
 ## Resumen ##
 
